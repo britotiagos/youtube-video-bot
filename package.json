@@ -1,0 +1,9 @@
+{
+  "name": "video-maker",
+  "version": "1.0.0",
+  "description": "A complete video maker bot for youtube. It will createad a video from a word add search for the information about that word, find images realted to that word and post it on youtube.",
+  "main": "index.js",
+  "repository": "git@github.com:britotiagos/video-maker.git",
+  "author": "Tiago Brito <tiago@avenuestud.io>",
+  "license": "MIT"
+}
