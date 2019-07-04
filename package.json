@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:britotiagos/video-maker.git",
   "author": "Tiago Brito <tiago@avenuestud.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
 }
