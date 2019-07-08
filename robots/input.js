@@ -5,6 +5,7 @@ function robot() {
   const content = {
     maximumSentences: 7
   };
+
   content.searchTerm = askAndReturnSearchTerm();
   content.prefix = askAndReturnPrefix();
   state.save(content);
@@ -14,14 +15,14 @@ function robot() {
   }
 
   function askAndReturnPrefix() {
-    const prefixes = ["Who is", "What is", "THe history of"];
+    const prefixes = ["Who is", "What is", "The history of"];
     const selectedPrefixIndex = readline.keyInSelect(
       prefixes,
-      "Choose one option : "
+      "Choose one option: "
     );
-    const selectedPrefixTest = prefixes[selectedPrefixIndex];
+    const selectedPrefixText = prefixes[selectedPrefixIndex];
 
-    return selectedPrefixTest;
+    return selectedPrefixText;
   }
 }
 
