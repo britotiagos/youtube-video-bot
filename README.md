@@ -24,3 +24,7 @@ A complete video maker bot for youtube. It will create a video from a chosen wor
   "url": "https://gateway.watsonplatform.net/natural-language-understanding/api"
 }
 ```
+
+## Content Folder
+
+Folder for downloaded or generated content
